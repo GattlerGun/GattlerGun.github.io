@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-expressions */
 import { NavLink } from 'react-router-dom';
-import { Component, useState } from 'react';
+import { Component, useEffect, useState } from 'react';
 
 import Header from './../components/header/Header';
 import { SkillsList } from './../helpers/SkillsList';
@@ -13,6 +13,16 @@ import { Carousel } from './../components/carousel/Carousel';
 
 const Home = (prop) => {
     const [slides, setSlides] = useState([]);
+    useEffect(() => {
+        setSlides(
+            JSON.parse(localStorage.getItem("slides"))
+        )
+    }, []);
+
+    useEffect(() => {
+        slides.length >= 1 &&
+        window.localStorage.setItem('slides', JSON.stringify(slides));
+    }, [slides]);
 
     class RegistrationForm extends Component {
         constructor(props) {
