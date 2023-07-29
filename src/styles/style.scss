@@ -1,0 +1,284 @@
+@import "vars";
+@import "fonts";
+@import "reset";
+@import "libs";
+@import "global";
+@import "svgValue";
+
+//-----------ABOUT---------------------
+//-----------ABOUT---------------------
+.about {
+    padding: 200px 0;
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__title {
+        margin-bottom: 50px;
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 25px 25px;
+    }
+}
+
+//-----------PROJECTS---------------------
+//-----------PROJECTS---------------------
+.projects {
+    padding: 150px 0;
+    background: #b6bdb7;
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        background: #cfdad1;
+        border-radius: 24px;
+        padding: 20px 20px 40px;
+    }
+
+    &__title {
+        margin-bottom: 50px;
+    }
+
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px 30px;
+        margin-bottom: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__more-link {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        transition: all 0.5s;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+    &__item-description {
+        max-height: 22px;
+        overflow: hidden;
+    }
+}
+
+//-----------TESTIMONIALS---------------------
+//-----------TESTIMONIALS---------------------
+.testimonials {
+    padding: 100px 0;
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__title {
+        margin-bottom: 50px;
+    }
+
+    &__box {
+        width: 100%;
+        position: relative;
+    }
+
+    &__slider {
+        min-width: 100%;
+        display: flex;
+        position: relative;
+    }
+
+    &__slide-wrapper {
+        max-width: 1200px;
+        width: 100%;
+        display: flex;
+        transition: translate;
+        transition-property: transform;
+        transition-duration: 300ms;
+        transition-timing-function: ease-in-out;
+    }
+    &__slide {
+        max-width: 1200px;
+        min-width: 100%;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    &__slide-content {
+        max-width: 1030px;
+        background: #cfdad1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 24px;
+        padding: 15px;
+        min-width: 240px;
+        min-height: 240px;
+        overflow: hidden;
+    }
+    &__name {
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    &__text {
+        overflow-x: hidden;
+        hyphens: auto;
+        max-width: 970px;
+    }
+    &__slider-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: transparent;
+        border: none;
+        width: 64px;
+        height: 64px;
+        z-index: 10;
+        cursor: pointer;
+    }
+    &__slider-left {
+        left: 0;
+    }
+    &__slider-right {
+        right: 0;
+    }
+}
+
+//-----------ENTRY---------------------
+//-----------ENTRY---------------------
+
+.entry {
+    padding: 100px 0;
+    background: rgba($main-color, 0.95);
+    &__inner {
+    }
+    &__title {
+        text-align: center;
+        margin-bottom: 50px;
+        color: #fff;
+    }
+    &__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    &__input {
+        max-width: 400px;
+        width: 100%;
+        height: 50px;
+        border-radius: 24px;
+        border: 1px solid rgba($main-color, 0.7);
+        padding: 15px;
+        margin-bottom: 30px;
+        &:focus-visible {
+            outline-color: rgba($accent-color, 0.7);
+        }
+    }
+    &__textarea {
+        max-width: 400px;
+        width: 100%;
+        min-height: 150px;
+        height: 100%;
+        border-radius: 24px;
+        border: 1px solid rgba($main-color, 0.7);
+        padding: 15px;
+        resize: none;
+        margin-bottom: 30px;
+        &:focus-visible {
+            outline-color: rgba($accent-color, 0.7);
+        }
+    }
+    &__btn {
+        padding: 15px 48px;
+    }
+}
+
+
+.projects-page {
+    min-height: 87.2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+//-----------PROJECT---------------------
+//-----------PROJECT---------------------
+.project {
+    padding: 150px 0;
+    background: #b6bdb7;
+    min-height: 87.2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        background: #cfdad1;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        border-radius: 24px;
+    }
+    &__title {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    &__img {
+        overflow: hidden;
+        border-radius: 24px;
+        border: 2px solid rgba($main-color, 0.7);
+        margin-bottom: 30px;
+    }
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+    &__item {
+    }
+    &__img-icon  {
+        margin-bottom: 15px;
+    }
+    &__text {
+        text-align: center;
+    }
+    &__description {
+        margin-bottom: 30px;
+    }
+    &__link {
+        display: block;
+        align-self: end;
+        text-align: right;
+        font-family: 'Trebuchet MS', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        transition: all .3s;
+        &:hover {
+            color: $accent-color;
+        }
+    }
+}
+
+@import "media";

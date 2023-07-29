@@ -1,0 +1,12 @@
+<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="66" width="66" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <ellipse ry="31.874787" rx="31.874788" id="svg_1" cy="31.999999" cx="31.999998" stroke-width="1.5" fill="#0c0e0d"/>
+  <text style="cursor: move;" stroke="null" xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="20" id="svg_2" y="39.124952" x="13.889768" stroke-width="0" fill="#296F21">BEM</text>
+ </g>
+</svg>

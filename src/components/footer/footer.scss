@@ -1,0 +1,47 @@
+@import "./../../styles/vars";
+
+//-----------FOOTER---------------------
+//-----------FOOTER---------------------
+
+.footer {
+    padding: 50px 0 30px;
+    background: $main-color;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__nav-list {
+        display: flex;
+        color: #fff;
+    }
+
+    &__nav-item {
+        padding: 0 20px;
+    }
+
+    &__nav-link {
+        transition: all .3s;
+        &:hover {
+            color: $accent-color;
+        }
+    }
+
+    &__socials {
+        display: flex;
+    }
+
+    &__social {
+        padding: 0 20px;
+    }
+
+    &__link {
+    }
+}
+.go-top {
+    &__btn {
+    }
+}
+
+@import './../../styles/media';

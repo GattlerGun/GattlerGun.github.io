@@ -1,0 +1,12 @@
+<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="66" width="66" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <ellipse ry="32.000008" rx="31.937506" id="svg_1" cy="32.000001" cx="31.999999" stroke-width="1.5" fill="#0c0e0d"/>
+  <text transform="matrix(1,0,0,1,0,0) " stroke="null" xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="24" id="svg_2" y="39.312502" x="14.597652" stroke-width="0" fill="#296F21">RAI</text>
+ </g>
+</svg>

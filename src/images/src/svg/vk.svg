@@ -1,0 +1,21 @@
+<svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="50" width="50" y="-1" x="-1"/>
+ </g>
+
+ <g>
+  <title>Layer 1</title>
+  <ellipse stroke="#ffffff" ry="23.084109" rx="23.028037" id="svg_2" cy="23.986323" cx="24.000004" stroke-width="1.5" fill="none"/>
+  <g stroke-width="0" id="SVGRepo_bgCarrier"/>
+  <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"/>
+  <g stroke="null" transform="matrix(3.1802844672768065,0,0,3.1802844672768065,0,0) " stroke-width="0" id="svg_10"/>
+  <g stroke="null" transform="matrix(3.1802844672768065,0,0,3.1802844672768065,0,0) " stroke-linejoin="round" stroke-linecap="round" id="svg_9"/>
+  <g stroke="null" transform="matrix(0.7645685062770113,0,0,0.7645685062770113,21.968503992934295,20.426493701064487) " id="svg_8">
+   <defs stroke-width="2" stroke="null" transform="translate(0,-0.9168298840522766) translate(0.4889422357082367,0) translate(-5.378386974334717,-1.9557770490646362) translate(-16.45350456237793,0) translate(0,-16.45583152770996) ">
+    <style stroke-width="2" stroke="null">.a{fill:none;stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;}</style>
+   </defs>
+   <path stroke-width="2" stroke="null" id="svg_12" d="m6.207051,15.861562l0,-6.64c4.46,0.68 5.87,4.19 8.71,6.64l7.24,0a29.36,29.36 0 0 0 -7.9,-10.47c2.6,-3.58 5.36,-6.95 6.71,-12.06l-6.58,0c-2.58,3.91 -3.94,8.49 -8.18,11.51l0,-11.51l-9.55,0l2.28,2.82l0,10.05c-3.7,-0.43 -6.2,-7.2 -8.91,-12.87l-6.87,0c2.5,7.66 7.76,24.47 23.05,22.53z" class="a"/>
+  </g>
+ </g>
+</svg>

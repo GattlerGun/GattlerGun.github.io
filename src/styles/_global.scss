@@ -1,0 +1,83 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Verdana', sans-serif;
+}
+
+#root {
+    min-height: 100%;
+}
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.main {
+    flex: 1 0 auto;
+}
+.footer {
+    flex: 0 0 auto;
+}
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.logo {
+    width: 88px;
+    height: 88px;
+}
+
+.title {
+    font-size: 48px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    line-height: 35px;
+    color: $main-color;
+}
+.btn {
+    border: none;
+    background: $accent-color;
+    border-radius:50px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    transition: all .5s;
+    &:hover {
+        box-shadow: 0 0 10px 0 $accent-color;
+    }
+}
+.svg-socials {
+    width: 48px;
+    height: 48px;
+    transition: all .3s;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+.svg-btn-top {
+    width: 48px;
+    height: 48px;
+    transition: all .3s;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+.svg-icon {
+    width: 48px;
+    height: 48px;
+}
+.svg-icon img{
+    width: 100%;
+}
