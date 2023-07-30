@@ -10,6 +10,9 @@ import Footer from './components/footer/Footer';
 
 import './styles/style.scss';
 function App() {
+    if(!window.localStorage.getItem('slides')) {
+        window.localStorage.setItem('slides', JSON.stringify([]))
+    }
     const about = useRef(null);
     return (
         <div className="App">
