@@ -106,6 +106,7 @@
         max-width: 1200px;
         width: 100%;
         display: flex;
+        overflow: hidden;
         transition: translate;
         transition-property: transform;
         transition-duration: 300ms;
