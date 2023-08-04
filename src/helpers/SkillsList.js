@@ -5,6 +5,8 @@ import gulpIcon from './../images/svg/gulp.svg';
 import bemIcon from './../images/svg/bem.svg';
 import jsIcon from './../images/svg/js.svg';
 
+
+
 const SkillsList = [
     {
         id: '0',

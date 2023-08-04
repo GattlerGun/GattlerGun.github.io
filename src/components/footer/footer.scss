@@ -23,6 +23,7 @@
 
     &__nav-link {
         transition: all .3s;
+        cursor: pointer;
         &:hover {
             color: $accent-color;
         }

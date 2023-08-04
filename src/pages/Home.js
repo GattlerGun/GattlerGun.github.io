@@ -24,7 +24,7 @@ const Home = (prop) => {
         window.localStorage.setItem('slides', JSON.stringify(slides));
     }, [slides]);
 
-    class RegistrationForm extends Component {
+    class RegistrationForm extends Component  {
         constructor(props) {
             super(props);
             this.state = {

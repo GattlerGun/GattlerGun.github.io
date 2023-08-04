@@ -23,17 +23,18 @@ const Projects = () => {
                                 </picture>
                             </div>
                             <ul className="project__list about__list">
-                                {SkillsList.map((skill) => {
-                                    if (skill.title !== 'CSS') {
-                                        return (
-                                            <Skills
-                                                key={skill.id}
-                                                title={skill.title}
-                                                img={skill.img}
-                                            />
-                                        )
-                                    }
-                                    return null
+                                {project.skills.map((pSkill) => {
+                                    return <div key={pSkill}>{
+                                        SkillsList.map((skill) => {
+                                            if (skill.title === pSkill) {
+                                                return <Skills
+                                                    key={skill.id}
+                                                    title={skill.title}
+                                                    img={skill.img}
+                                                />
+                                            } return null
+                                        })}
+                                    </div>
                                 })}
                             </ul>
                             <p className="project__description">{project.description}</p>
