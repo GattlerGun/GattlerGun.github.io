@@ -170,8 +170,6 @@
 .entry {
     padding: 100px 0;
     background: rgba($main-color, 0.95);
-    &__inner {
-    }
     &__title {
         text-align: center;
         margin-bottom: 50px;
@@ -256,8 +254,6 @@
         flex-wrap: wrap;
         gap: 30px;
         margin-bottom: 30px;
-    }
-    &__item {
     }
     &__img-icon  {
         margin-bottom: 15px;
